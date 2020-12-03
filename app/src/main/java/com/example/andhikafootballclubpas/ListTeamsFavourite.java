@@ -42,10 +42,10 @@ public class ListTeamsFavourite extends AppCompatActivity {
             @Override
             public void onClick(int position) {
                 Intent move = new Intent(getApplicationContext(), DetailTeamsFavourite.class);
-                move.putExtra("judul",modelTeams.get(position).getJudul());
-                move.putExtra("path",modelTeams.get(position).getPath());
-                move.putExtra("date",modelTeams.get(position).getReleaseDate());
-                move.putExtra("deskripsi",modelTeams.get(position).getDesc());
+                move.putExtra("judul", modelTeams.get(position).getJudul());
+                move.putExtra("path", modelTeams.get(position).getPath());
+                move.putExtra("date", modelTeams.get(position).getReleaseDate());
+                move.putExtra("deskripsi", modelTeams.get(position).getDesc());
 
                 startActivity(move);
             }
@@ -60,4 +60,5 @@ public class ListTeamsFavourite extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
     }
+
 }

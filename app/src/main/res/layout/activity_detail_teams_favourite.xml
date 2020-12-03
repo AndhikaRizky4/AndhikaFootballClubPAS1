@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/re"
     tools:context=".DetailTeamsFavourite">
 
     <LinearLayout
@@ -34,7 +35,7 @@
             android:id="@+id/txtdeskripsi_favourite"
             android:text="Deskripsi"
             android:textSize="15sp"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/primary_text_dark"
             android:lineSpacingExtra="2dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
