@@ -16,7 +16,7 @@
             android:textSize="25sp"
             android:layout_margin="20dp"
             android:layout_gravity="center"
-            android:text="judul movie"
+            android:text="judul film"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:id="@+id/tvjudul"
